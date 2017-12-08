@@ -1,0 +1,38 @@
+.header{
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  height: 150px;
+}
+.header__menu{
+  display: flex;
+  font-size: 18px;
+}
+.header__menu-btn{
+  margin: 5px 30px;
+}
+.header__menu-btn a{
+  position: relative;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+}
+.header__menu-btn a::after{
+  content: '';
+  width: 0px;
+  height: 1px;
+  background-color: #00a2bc;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+}
+.header__menu-btn a:hover::after{
+  -webkit-transition: width 0.3s, left 0.3s;
+  -moz-transition: width 0.3s, left 0.3s;
+  -ms-transition: width 0.3s, left 0.3s;
+  transition: width 0.3s, left 0.3s;
+  transform: translateX(-50%);
+  width: 100%;
+}
