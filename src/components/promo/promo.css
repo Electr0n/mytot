@@ -1,0 +1,25 @@
+.promo{
+  display: flex;
+  align-self: center;
+  width: 75%;
+  height: 520px;
+}
+.promo__side{
+  width: 50%;
+}
+.promo__side__label{
+  margin-top: 50px;
+  font-size: 32px;
+}
+.promo__side__description{
+  width: 440px;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 20px 0px;
+}
+.promo__side__download_link{
+  width: 150px;
+  height: 58px;
+  background-size: cover;
+  background-image: url('../../assets/images/download-logo.png');
+}
