@@ -1,4 +1,6 @@
 .app__container{
+  display: flex;
+  flex-direction: column;
   width: 100%;
   min-width: 480px;
   min-height: 100vh;
@@ -16,6 +18,7 @@
   background: -o-radial-gradient(35% top, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
   background: -moz-radial-gradient(35% top, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
   background: radial-gradient(35% top, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
+  z-index: -1;
 }
 .background-gradient__strip_first{
   width: 25%;
