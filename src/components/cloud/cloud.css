@@ -1,0 +1,60 @@
+.cloud{
+  display: flex;
+  align-self: center;
+  width: 75%;
+  height: 600px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.cloud__flag_stripped{
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  top: -5%;
+  right: -10%;
+  background: -webkit-repeating-linear-gradient(left, #00aa8d, #00aa8d 5px, white 5.5px, white 10px);
+  background: -o-repeating-linear-gradient(right, #00aa8d, #00aa8d 5px, white 5.5px, white 10px);
+  background: -moz-repeating-linear-gradient(right, #00aa8d, #00aa8d 5px, white 5.5px, white 10px);
+  background: repeating-linear-gradient(right, #00aa8d, #00aa8d 5px, white 5.5px, white 10px);
+  -webkit-transform: skew(-30deg, 55deg);
+  -moz-transform: skew(-30deg, 55deg);
+  -o-transform: skew(-30deg, 55deg);
+  z-index: -2;
+}
+.cloud__logo{
+  width: 350px;
+  height: 350px;
+  background-color: blue;
+}
+.cloud__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+.cloud__content__label{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cloud__content__description{
+  display: flex;
+  flex-direction: row;
+}
+.cloud__content__description__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cloud__content__description__logo{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #f0fbfa;
+}
+.cloud__content__description__text{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
