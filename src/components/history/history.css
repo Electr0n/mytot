@@ -1,0 +1,118 @@
+.history{
+  display: flex;
+  width: 100%;
+  height: 740px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: #06bad6;
+  background: -webkit-linear-gradient(left top, #02c9a7, #06bad6);
+  background: -o-linear-gradient(right bottom, #02c9a7, #06bad6);
+  background: -moz-linear-gradient(right bottom, #02c9a7, #06bad6);
+  background: linear-gradient(right bottom, #02c9a7, #06bad6);
+}
+.history__photo-frame{
+  width: 160px;
+  height: 110px;
+  position: absolute;
+  top: 60px;
+  left: -80px;
+  border: solid #e4f400 10px;
+  -webkit-transform: skew(-19deg, 20deg);
+  -moz-transform: skew(-19deg, 20deg);
+  -o-transform: skew(-19deg, 20deg);
+}
+.history__slicer_top{
+  width: 10000px;
+  height: 150px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -100px;
+  transform: rotate(-3deg);
+}
+.history__slicer_bottom{
+  width: 10000px;
+  height: 150px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -100px;
+  transform: rotate(3deg);
+}
+.history__container{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.history__container__label{
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.history__container__description{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.history__description__logo{
+  width: 200px;
+  height: 350px;
+  background-color: #0c4151;
+}
+.history__description__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  width: 70%;
+}
+.history__description__text{
+  display: flex;
+  font-size: 28px;
+  color: #ffffff;
+}
+.history__description__bubbles{
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+.history__description__bubbles__item{
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: #e6f8f9;
+  border-radius: 50%;
+  height: 140px;
+  width: 190px;
+  padding: 10px;
+}
+.history__description__bubbles__item:after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 25px solid transparent;
+  border-top-color: #e6f8f9;
+  border-bottom: 0;
+  margin-left: -25px;
+  margin-bottom: -25px;
+}
+.talk-bubble_1{
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+.talk-bubble_2{
+  position: absolute;
+  right: 60px;
+  top: 10px;
+}
+.talk-bubble_3{
+  position: absolute;
+  bottom: 20px;
+  left: 190px;
+}

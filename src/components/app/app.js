@@ -3,6 +3,7 @@ import Header from '../header/header';
 import Promo from '../promo/promo';
 import ShareMoments from '../share-moments/share-moments';
 import Cloud from '../cloud/cloud';
+import History from '../history/history';
 import './app.css';
 
 export default class App extends Component {
@@ -18,6 +19,7 @@ export default class App extends Component {
         <Promo />
         <ShareMoments />
         <Cloud />
+        <History />
       </div>
     );
   }
