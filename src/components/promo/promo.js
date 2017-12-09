@@ -10,9 +10,9 @@ export default class Promo extends Component{
           <div className='promo__side__description'>
             Мы поможем сохранить бесценные моменты взросления Ваших детей в фото, видео и дневниках в нашем приложении.
           </div>
-          <a href='https://play.google.com/store/apps/details?id=com.inflow.mytot'>
-            <div className='promo__side__download_link'></div>
-          </a>
+          <div className='promo__side__download_link'>
+            <a href='https://play.google.com/store/apps/details?id=com.inflow.mytot'></a>
+          </div>
         </div>
         <div className='promo__side'>
         </div>
