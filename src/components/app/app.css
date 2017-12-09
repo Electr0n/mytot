@@ -2,16 +2,21 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-width: 480px;
+  min-width: 500px;
   min-height: 100vh;
   height: 100%;
 }
 .background-gradient{
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
   width: 100%;
-  min-height: 100vh;
+  min-width: 500px;
+  min-height: 800px;
+  width: 100%;
   height: 100%;
   opacity: 0.21;
-  position: fixed;
+  position: absolute;
   top: 0;
   background: #00d4d4;
   background: -webkit-radial-gradient(35% bottom, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
@@ -23,7 +28,6 @@
 .background-gradient__strip_first{
   width: 25%;
   height: 100%;
-  position: relative;
   left: 35%;
   -webkit-transform: skew(-32deg);
   -moz-transform: skew(-32deg);
@@ -37,7 +41,6 @@
 .background-gradient__strip_second{
   width: 15%;
   height: 100%;
-  position: absolute;
   top: 0;
   left: 59%;
   -webkit-transform: skew(-32deg);
@@ -52,7 +55,6 @@
 .background-gradient__strip_third{
   width: 25%;
   height: 100%;
-  position: absolute;
   top: 0;
   left: 74%;
   -webkit-transform: skew(-32deg);

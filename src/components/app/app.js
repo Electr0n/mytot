@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/header';
 import Promo from '../promo/promo';
+import ShareMoments from '../share-moments/share-moments';
 import './app.css';
 
 export default class App extends Component {
@@ -14,6 +15,7 @@ export default class App extends Component {
         </div>
         <Header />
         <Promo />
+        <ShareMoments />
       </div>
     );
   }
