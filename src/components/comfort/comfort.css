@@ -1,0 +1,40 @@
+.comfort{
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  width: 75%;
+  height: 750px;
+}
+.comfort__label{
+  width: 350px;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 90px;
+}
+.comfort__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comfort__phone{
+  width: 200px;
+  height: 350px;
+  background-color: #0c4151;
+  align-self: flex-end;
+  margin-bottom: 180px;
+}
+.comfort__text{
+  width: 350px;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin: 60px 0 40px 0;
+}
+.comfort__panda{
+  width: 180px;
+  height: 220px;
+  background-color: #454545;
+}
