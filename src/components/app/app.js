@@ -5,7 +5,7 @@ import ShareMoments from '../share-moments/share-moments';
 import Cloud from '../cloud/cloud';
 import History from '../history/history';
 import Comfort from '../comfort/comfort';
-import FigureDivider from '../figure-divider/figure-divider';
+import Important from '../important/important';
 import './app.css';
 
 export default class App extends Component {
@@ -23,7 +23,7 @@ export default class App extends Component {
         <Cloud />
         <History />
         <Comfort />
-        <FigureDivider />
+        <Important />
       </div>
     );
   }
