@@ -6,6 +6,7 @@ import Cloud from '../cloud/cloud';
 import History from '../history/history';
 import Comfort from '../comfort/comfort';
 import Important from '../important/important';
+import Acceess from '../access/access';
 import './app.css';
 
 export default class App extends Component {
@@ -24,6 +25,7 @@ export default class App extends Component {
         <History />
         <Comfort />
         <Important />
+        <Acceess />
       </div>
     );
   }
