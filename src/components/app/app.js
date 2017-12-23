@@ -7,6 +7,7 @@ import History from '../history/history';
 import Comfort from '../comfort/comfort';
 import Important from '../important/important';
 import Acceess from '../access/access';
+import Footer from '../footer/footer';
 import './app.css';
 
 export default class App extends Component {
@@ -26,6 +27,7 @@ export default class App extends Component {
         <Comfort />
         <Important />
         <Acceess />
+        <Footer />
       </div>
     );
   }

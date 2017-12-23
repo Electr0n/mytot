@@ -1,0 +1,71 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 190px;
+  position: relative;
+  background-color: #00aa8d;
+}
+.footer__background{
+  width: 100%;
+  height: 150px;
+  background-color: #00aa8d;
+  transform: skew(0deg, 4deg);
+  -webkit-transform: skew(0deg, 4deg);
+  -moz-transform: skew(0deg, 4deg);
+  -o-transform: skew(0deg, 4deg);
+  position: absolute;
+  top: -80px;
+}
+.footer__menu{
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 2;
+}
+.footer__menu__item{
+  font-size: 20px;
+  color: #ffffff;
+  width: auto;
+  margin: 0 25px;
+}
+.footer__menu__item a{
+  text-decoration: none;
+  color: inherit;
+}
+.footer__flag-stripped{
+  position: absolute;
+  top: -150px;
+  left: 18%;
+  width: 80px;
+  height: 80px;
+  background: -webkit-repeating-linear-gradient(left, #38e0f6, #38e0f6 4px, transparent 4.1px, transparent 8.1px);
+  background: -o-repeating-linear-gradient(right, #38e0f6, #38e0f6 4px, transparent 4.1px, transparent 8.1px);
+  background: -moz-repeating-linear-gradient(right, #38e0f6, #38e0f6 4px, transparent 4.1px, transparent 8.1px);
+  background: repeating-linear-gradient(right, #38e0f6, #38e0f6 4px, transparent 4.1px, transparent 8.1px);
+  -webkit-transform: skew(-40deg, 65deg);
+  -moz-transform: skew(-40deg, 65deg);
+  -o-transform: skew(-40deg, 65deg);
+}
+.footer__triangle{
+  position: absolute;
+  top: -220px;
+  left: 9%;
+  width: 0; 
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid #ccfeff;
+  transform: rotate(-20deg);
+}
+.footer__logo{
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  width: 200px;
+  height: 60px;
+  background-color: blue;
+}
