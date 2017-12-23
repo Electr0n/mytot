@@ -43,7 +43,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 100%;
+  width: 80%;
 }
 .access__header{
   width: 550px;
@@ -58,7 +58,10 @@
   margin: 30px 0px;
 }
 .access__image{
-  width: 400px;
-  height: 500px;
-  background-color: blue;
+  position: absolute;
+  right: -200px;
+  width: 650px;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/pandas1-09.svg');
 }

@@ -4,22 +4,45 @@
   width: 75%;
   height: 520px;
 }
-.promo__side{
+.promo__content{
   width: 50%;
 }
-.promo__side__label{
+.promo__content__label{
   margin-top: 50px;
-  font-size: 32px;
+  font-size: 38px;
 }
-.promo__side__description{
+.promo__content__description{
   width: 440px;
   font-size: 18px;
   line-height: 25px;
   margin: 20px 0px;
 }
-.promo__side__download_link{
+.promo__content__download_link{
   width: 150px;
   height: 58px;
   background-size: cover;
   background-image: url('../../assets/images/download-logo.png');
+}
+.promo__images{
+  display: flex;
+  width: 50%;
+  position: relative;
+}
+.promo__panda-1{
+  position: absolute;
+  left: -200px;
+  bottom: 50px;
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/screen3-02.svg');
+}
+.promo__panda-2{
+  position: absolute;
+  left: -50px;
+  bottom: 50px;
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/screen3-03.svg');
 }

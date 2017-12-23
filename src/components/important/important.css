@@ -17,7 +17,7 @@
   width: 50%;
 }
 .important__content__header{
-  font-size: 32px;
+  font-size: 38px;
 }
 .important__content__text{
   margin-top: 40px;
@@ -28,5 +28,8 @@
   margin: 0;
 }
 .important__image{
-  width: 50%;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/pandas1-05.svg');
 }

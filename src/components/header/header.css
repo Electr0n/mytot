@@ -17,13 +17,14 @@
   position: relative;
   text-decoration: none;
   color: black;
+  font-size: 20px;
   height: 100%;
 }
 .header__menu-btn a::after{
   content: '';
   width: 0px;
   height: 1px;
-  background-color: #00a2bc;
+  background-color: #00aa8d;
   position: absolute;
   bottom: -5px;
   left: 50%;

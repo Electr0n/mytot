@@ -34,7 +34,26 @@
 }
 .footer__menu__item a{
   text-decoration: none;
+  position: relative;
   color: inherit;
+  font-size: 20px;
+}
+.footer__menu__item a::after{
+  content: '';
+  width: 0px;
+  height: 1px;
+  background-color: #d4edf3;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+}
+.footer__menu__item a:hover::after{
+  -webkit-transition: width 0.3s, left 0.3s;
+  -moz-transition: width 0.3s, left 0.3s;
+  -ms-transition: width 0.3s, left 0.3s;
+  transition: width 0.3s, left 0.3s;
+  transform: translateX(-50%);
+  width: 100%;
 }
 .footer__flag-stripped{
   position: absolute;
@@ -67,5 +86,5 @@
   top: 30%;
   width: 200px;
   height: 60px;
-  background-color: blue;
+  background-color: #0c4151;
 }
