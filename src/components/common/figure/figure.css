@@ -1,0 +1,85 @@
+.figure{
+  margin: 0;
+  padding: 0;
+  font-variant: normal;
+  text-transform: none;
+}
+
+/* SHAPES */
+.figure_shape_circle{
+  border-radius: 50%;
+}
+@font-face {
+  font-family: 'plus';
+  src: url('../../../assets/fonts/plus/plus.woff?15880426') format('woff'),
+       url('../../../assets/fonts/plus/plus.svg?15880426#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+.figure_shape_plus {
+font-family: "plus";
+font-style: normal;
+font-weight: normal;
+speak: none;
+display: inline-block;
+text-decoration: inherit;
+width: 1em;
+margin-right: .2em;
+text-align: center;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.figure_shape_plus:before { content: '\e804'; } /* '' */
+.figure_size_s.figure_shape_plus:before {
+  font-size: 12px;
+}
+.figure_size_m.figure_shape_plus:before {
+  font-size: 20px;
+}
+.figure_size_l.figure_shape_plus:before {
+  font-size: 23px;
+}
+.figure_shape_plus.figure_color_onahau{
+  background: none;
+  color: #ccfeff;
+}
+.figure_shape_plus.figure_color_persianGreen{
+  background: none;
+  color: #00aa8d;
+}
+.figure_shape_plus.figure_color_pacificBlue{
+  background: none;
+  color: #00abbc;
+}
+.figure_shape_plus.figure_color_cerise{
+  background: none;
+  color: #dc317f;
+}
+
+/* COLORS */
+.figure_color_onahau{
+  background-color: #ccfeff;
+}
+.figure_color_persianGreen{
+  background-color: #00aa8d;
+}
+.figure_color_pacificBlue{
+  background-color: #00abbc;
+}
+.figure_color_cerise{
+  background-color: #dc317f;
+}
+
+/* SIZES */
+.figure_size_s{
+  width: 10px;
+  height: 10px;
+}
+.figure_size_m{
+  width: 15px;
+  height: 15px;
+}
+.figure_size_l{
+  width: 20px;
+  height: 20px;
+}
