@@ -33,10 +33,10 @@
   -moz-transform: skew(-32deg);
   -o-transform: skew(-32deg);
   background: #00d4d4;
-  background: -webkit-linear-gradient(bottom, #00d4d4, #00d4d4, #b4d2f5, #bff6cf);
-  background: -o-linear-gradient(top, #00d4d4, #00d4d4, #b4d2f5, #bff6cf);
-  background: -moz-linear-gradient(top, #00d4d4, #00d4d4, #b4d2f5, #bff6cf);
-  background: linear-gradient(top, #00d4d4, #00d4d4, #b4d2f5, #bff6cf);
+  background: -webkit-linear-gradient(to top, #00d4d4, #00d4d4, #b4d2f5, #bff6cf);
+  background: -o-linear-gradient(to bottom, #00d4d4, #00d4d4, #b4d2f5, #bff6cf);
+  background: -moz-linear-gradient(to bottom, #00d4d4, #00d4d4, #b4d2f5, #bff6cf);
+  background: linear-gradient(to bottom, #00d4d4, #00d4d4, #b4d2f5, #bff6cf);
 }
 .background-gradient__strip_second{
   width: 15%;
@@ -47,10 +47,10 @@
   -moz-transform: skew(-32deg);
   -o-transform: skew(-32deg);
   background: #00d4d4;
-  background: -webkit-linear-gradient(bottom, #01dcbe, #01dcbe, #b4d2f5, #bff6cf);
-  background: -o-linear-gradient(top, #01dcbe, #01dcbe, #b4d2f5, #bff6cf);
-  background: -moz-linear-gradient(top, #01dcbe, #01dcbe, #b4d2f5, #bff6cf);
-  background: linear-gradient(top, #01dcbe, #01dcbe, #b4d2f5, #bff6cf);
+  background: -webkit-linear-gradient(to top, #01dcbe, #01dcbe, #b4d2f5, #bff6cf);
+  background: -o-linear-gradient(to bottom, #01dcbe, #01dcbe, #b4d2f5, #bff6cf);
+  background: -moz-linear-gradient(to bottom, #01dcbe, #01dcbe, #b4d2f5, #bff6cf);
+  background: linear-gradient(to bottom, #01dcbe, #01dcbe, #b4d2f5, #bff6cf);
 }
 .background-gradient__strip_third{
   width: 25%;
@@ -61,8 +61,8 @@
   -moz-transform: skew(-32deg);
   -o-transform: skew(-32deg);
   background: #00d4d4;
-  background: -webkit-linear-gradient(bottom, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
-  background: -o-linear-gradient(top, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
-  background: -moz-linear-gradient(top, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
-  background: linear-gradient(top, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
+  background: -webkit-linear-gradient(to top, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
+  background: -o-linear-gradient(to bottom, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
+  background: -moz-linear-gradient(to bottom, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
+  background: linear-gradient(to bottom, #00d4d4, #b4d2f5, #bfd8f6, #ffffff);
 }

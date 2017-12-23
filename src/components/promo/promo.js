@@ -5,16 +5,18 @@ export default class Promo extends Component{
   render(){
     return(
       <div className='promo'>
-        <div className='promo__side'>
-          <div className='promo__side__label'>Не забывай бесценное!</div>
-          <div className='promo__side__description'>
+        <div className='promo__content'>
+          <div className='promo__content__label'>Не забывай бесценное!</div>
+          <div className='promo__content__description'>
             Мы поможем сохранить бесценные моменты взросления Ваших детей в фото, видео и дневниках в нашем приложении.
           </div>
-          <div className='promo__side__download_link'>
-            <a href='https://play.google.com/store/apps/details?id=com.inflow.mytot'></a>
-          </div>
+          <a href='https://play.google.com/store/apps/details?id=com.inflow.mytot'>
+            <div className='promo__content__download_link'></div>
+          </a>
         </div>
-        <div className='promo__side'>
+        <div className='promo__images'>
+          <div className='promo__panda-1'></div>
+          <div className='promo__panda-2'></div>
         </div>
       </div>
     );

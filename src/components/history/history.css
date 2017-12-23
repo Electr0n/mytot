@@ -1,16 +1,16 @@
 .history{
   display: flex;
   width: 100%;
-  height: 740px;
+  height: 840px;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
   background: #06bad6;
-  background: -webkit-linear-gradient(left top, #02c9a7, #06bad6);
-  background: -o-linear-gradient(right bottom, #02c9a7, #06bad6);
-  background: -moz-linear-gradient(right bottom, #02c9a7, #06bad6);
-  background: linear-gradient(right bottom, #02c9a7, #06bad6);
+  background: -webkit-linear-gradient(to right bottom, #02c9a7, #06bad6);
+  background: -o-linear-gradient(to left top, #02c9a7, #06bad6);
+  background: -moz-linear-gradient(to left top, #02c9a7, #06bad6);
+  background: linear-gradient(to left top, #02c9a7, #06bad6);
 }
 .history__photo-frame{
   width: 160px;
@@ -45,7 +45,7 @@
   width: 75%;
 }
 .history__container__label{
-  font-size: 32px;
+  font-size: 38px;
   color: #ffffff;
   margin-bottom: 50px;
 }
@@ -69,7 +69,8 @@
 }
 .history__description__text{
   display: flex;
-  font-size: 28px;
+  margin-top: 30px;
+  font-size: 32px;
   color: #ffffff;
 }
 .history__description__bubbles{
@@ -103,16 +104,16 @@
 }
 .talk-bubble_1{
   position: absolute;
-  top: -20px;
+  top: -10%;
   left: 0;
 }
 .talk-bubble_2{
   position: absolute;
-  right: 60px;
-  top: 10px;
+  right: 10%;
+  top: 5%;
 }
 .talk-bubble_3{
   position: absolute;
-  bottom: 20px;
-  left: 190px;
+  left: 30%;
+  bottom: 5%;
 }
