@@ -31,13 +31,13 @@ text-align: center;
 }
 .figure_shape_plus:before { content: '\e804'; } /* '' */
 .figure_size_s.figure_shape_plus:before {
-  font-size: 10px;
+  font-size: 12px;
 }
 .figure_size_m.figure_shape_plus:before {
-  font-size: 15px;
+  font-size: 20px;
 }
 .figure_size_l.figure_shape_plus:before {
-  font-size: 19px;
+  font-size: 23px;
 }
 .figure_shape_plus.figure_color_onahau{
   background: none;
@@ -72,14 +72,14 @@ text-align: center;
 
 /* SIZES */
 .figure_size_s{
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
 }
 .figure_size_m{
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
 }
 .figure_size_l{
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
 }
