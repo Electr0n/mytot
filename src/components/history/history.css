@@ -45,7 +45,7 @@
   width: 75%;
 }
 .history__container__label{
-  font-size: 38px;
+  font-size: 44px;
   color: #ffffff;
   margin-bottom: 50px;
 }
@@ -54,9 +54,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.history__description__logo{
-  width: 200px;
-  height: 350px;
+.history__phone{
+}
+.history__phone__content{
+  width: 100%;
+  height: 100%;
   background-color: #0c4151;
 }
 .history__description__wrapper{
@@ -69,8 +71,9 @@
 }
 .history__description__text{
   display: flex;
-  margin-top: 30px;
-  font-size: 32px;
+  margin-top: 50px;
+  font-size: 38px;
+  line-height: 50px;
   color: #ffffff;
 }
 .history__description__bubbles{

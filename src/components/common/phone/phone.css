@@ -1,0 +1,24 @@
+.phone{
+  box-sizing: border-box;
+  padding: 16.6% 3.8%;
+}
+
+.phone_color_black{
+  background-color: #1a1a1a;
+}
+.phone_color_white{
+  background-color: #f7f7f7;
+}
+
+.phone_size_s{
+  width: 228px;
+  height: 442px;
+}
+.phone_size_m{
+  width: 240px;
+  height: 466px;
+}
+.phone_size_l{
+  width: 270px;
+  height: 523px;
+}

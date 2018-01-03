@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Phone from '../common/phone/phone';
 import './history.css';
 
 export default class History extends Component{
@@ -12,7 +13,11 @@ export default class History extends Component{
             Истории, которые не забываются и не выцветают!
           </div>
           <div className='history__container__description'>
-            <div className='history__description__logo'></div>
+            <div className='history__phone'>
+              <Phone size='m' color='white'>
+                <div className='history__phone__content'></div>
+              </Phone>
+            </div>
             <div className='history__description__wrapper'>
               <div className='history__description__bubbles'>
                 <div className='history__description__bubbles__item talk-bubble_1'>
