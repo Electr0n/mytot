@@ -2,7 +2,7 @@
   display: flex;
   align-self: center;
   width: 75%;
-  height: 600px;
+  height: 700px;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -23,9 +23,9 @@
   z-index: -2;
 }
 .cloud__logo{
-  width: 500px;
-  height: 500px;
-  margin-top: 100px;
+  width: 600px;
+  height: 600px;
+  margin-top: 240px;
   background-repeat: no-repeat;
   background-image: url('../../assets/images/pandas1-06.svg');
 }
@@ -33,12 +33,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 500px;
+  width: 700px;
 }
 .cloud__content__label{
-  font-size: 38px;
+  font-size: 48px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .cloud__content__description{
   display: flex;
@@ -51,9 +51,9 @@
 }
 .cloud__content__description__text{
   margin-top: 20px;
-  width: 200px;
+  width: 240px;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
 }
 .cloud__content__description__logo{
   display: flex;

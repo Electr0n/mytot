@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Phone from '../common/phone/phone';
 import './promo.css';
 
 export default class Promo extends Component{
@@ -17,6 +18,11 @@ export default class Promo extends Component{
         <div className='promo__images'>
           <div className='promo__panda-1'></div>
           <div className='promo__panda-2'></div>
+          <div className='promo__phone'>
+            <Phone size='l' color='black'>
+              <div className='promo__phone__content'></div>
+            </Phone>
+          </div>
         </div>
       </div>
     );

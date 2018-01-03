@@ -2,14 +2,14 @@
   display: flex;
   align-self: center;
   width: 75%;
-  height: 520px;
+  height: 650px;
 }
 .promo__content{
   width: 50%;
 }
 .promo__content__label{
   margin-top: 50px;
-  font-size: 38px;
+  font-size: 48px;
 }
 .promo__content__description{
   width: 440px;
@@ -30,19 +30,29 @@
 }
 .promo__panda-1{
   position: absolute;
-  left: -200px;
+  left: -50%;
   bottom: 50px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-repeat: no-repeat;
   background-image: url('../../assets/images/screen3-02.svg');
 }
 .promo__panda-2{
   position: absolute;
-  left: -50px;
+  left: -17%;
   bottom: 50px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-repeat: no-repeat;
   background-image: url('../../assets/images/screen3-03.svg');
+}
+.promo__phone{
+  position: absolute;
+  left: 37%;
+  top: 25px;
+}
+.promo__phone__content{
+  background-color: #01dcbe;
+  width: 100%;
+  height: 100%;
 }

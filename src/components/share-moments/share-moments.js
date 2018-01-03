@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Phone from '../common/phone/phone';
 import './share-moments.css';
 
 export default class ShareMoments extends Component{
@@ -13,9 +14,21 @@ export default class ShareMoments extends Component{
             Поделись лучшими моментами с вашими близкими - легко и удобно.
           </div>
           <div className='share-moments__content__images'>
-            <div className='share-moments__content__images__item'></div>
-            <div className='share-moments__content__images__item'></div>
-            <div className='share-moments__content__images__item'></div>
+            <div className='share-moments__phone'>
+              <Phone size='s' color='white'>
+                <div className='share-moments__phone__content_1'></div>
+              </Phone>
+            </div>
+            <div className='share-moments__phone'>
+              <Phone size='s' color='white'>
+                <div className='share-moments__phone__content_2'></div>
+              </Phone>
+            </div>
+            <div className='share-moments__phone'>
+              <Phone size='s' color='white'>
+                <div className='share-moments__phone__content_3'></div>
+              </Phone>
+            </div>
           </div>
         </div>
         <div className='share-moments__background_corner'></div>
