@@ -45,7 +45,7 @@
   width: 75%;
 }
 .history__container__label{
-  font-size: 44px;
+  font-size: 38px;
   color: #ffffff;
   margin-bottom: 50px;
 }
@@ -72,7 +72,7 @@
 .history__description__text{
   display: flex;
   margin-top: 50px;
-  font-size: 38px;
+  font-size: 32px;
   line-height: 50px;
   color: #ffffff;
 }
