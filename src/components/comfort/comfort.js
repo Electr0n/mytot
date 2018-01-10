@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Phone from '../common/phone/phone';
 import './comfort.css';
+import screen from '../../assets/images/phone_screen-default.png';
 
 export default class Comfort extends Component {
   render(){
@@ -9,7 +10,9 @@ export default class Comfort extends Component {
         <div className='comfort'>
           <div className='comfort__phone'>
             <Phone size='m' color='black'>
-              <div className='comfort__phone__content'></div>
+              <div className='comfort__phone__content'>
+                <img src={screen} />
+              </div>
             </Phone>
           </div>
           <div className='comfort__content'>
@@ -19,7 +22,9 @@ export default class Comfort extends Component {
           </div>
           <div className='comfort__phone'>
             <Phone size='m' color='black'>
-              <div className='comfort__phone__content'></div>
+              <div className='comfort__phone__content'>
+                <img src={screen} />
+              </div>
             </Phone>
           </div>
         </div>

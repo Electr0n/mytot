@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Phone from '../common/phone/phone';
 import './promo.css';
+import screen from '../../assets/images/phone_screen-default.png';
 
 export default class Promo extends Component{
   render(){
@@ -20,7 +21,9 @@ export default class Promo extends Component{
           <div className='promo__panda-2'></div>
           <div className='promo__phone'>
             <Phone size='l' color='black'>
-              <div className='promo__phone__content'></div>
+              <div className='promo__phone__content'>
+                <img src={ screen }/>
+              </div>
             </Phone>
           </div>
         </div>

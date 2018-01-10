@@ -52,7 +52,12 @@
   top: 25px;
 }
 .promo__phone__content{
-  background-color: #01dcbe;
+  width: 238px;
+  height: 416px;
+  margin-left: 2px;
+  margin-bottom: 24px;
+}
+.promo__phone__content img{
   width: 100%;
   height: 100%;
 }
