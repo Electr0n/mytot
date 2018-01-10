@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Phone from '../common/phone/phone';
 import './history.css';
+import screen from '../../assets/images/phone_screen-default.png';
 
 export default class History extends Component{
   render(){
@@ -15,7 +16,9 @@ export default class History extends Component{
           <div className='history__container__description'>
             <div className='history__phone'>
               <Phone size='m' color='white'>
-                <div className='history__phone__content'></div>
+                <div className='history__phone__content'>
+                  <img src={screen} />
+                </div>
               </Phone>
             </div>
             <div className='history__description__wrapper'>

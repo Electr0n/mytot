@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Phone from '../common/phone/phone';
 import './share-moments.css';
+import screen from '../../assets/images/phone_screen-default.png';
 
 export default class ShareMoments extends Component{
   render(){
@@ -16,17 +17,23 @@ export default class ShareMoments extends Component{
           <div className='share-moments__content__images'>
             <div className='share-moments__phone'>
               <Phone size='s' color='white'>
-                <div className='share-moments__phone__content_1'></div>
+                <div className='share-moments__phone__content_1'>
+                  <img src={screen} />
+                </div>
               </Phone>
             </div>
             <div className='share-moments__phone'>
               <Phone size='s' color='white'>
-                <div className='share-moments__phone__content_2'></div>
+                <div className='share-moments__phone__content_2'>
+                  <img src={screen} />
+                </div>
               </Phone>
             </div>
             <div className='share-moments__phone'>
               <Phone size='s' color='white'>
-                <div className='share-moments__phone__content_3'></div>
+                <div className='share-moments__phone__content_3'>
+                  <img src={screen} />
+                </div>
               </Phone>
             </div>
           </div>

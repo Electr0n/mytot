@@ -55,12 +55,18 @@
   width: 100%;
   justify-content: space-around;
 }
-.share-moments__phone{
-}
 .share-moments__phone__content_1,
 .share-moments__phone__content_2,
 .share-moments__phone__content_3{
-  background-color: #0c4151;
+  width: 206px;
+  height: 360px;
+  margin-bottom: 6px;
+  margin-right: 3px;
+}
+.share-moments__phone__content_1 img,
+.share-moments__phone__content_2 img,
+.share-moments__phone__content_3 img{
+  border: solid black 1px;
   width: 100%;
   height: 100%;
 }
