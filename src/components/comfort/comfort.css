@@ -25,9 +25,14 @@
   margin-bottom: 80px;
 }
 .comfort__phone__content{
+  width: 211px;
+  height: 368px;
+  margin-left: 2px;
+  margin-bottom: 20px;
+}
+.comfort__phone__content img{
   width: 100%;
   height: 100%;
-  background-color: #01dcbe;
 }
 .comfort__text{
   width: 430px;

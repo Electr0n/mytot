@@ -1,13 +1,20 @@
 .phone{
   box-sizing: border-box;
   padding: 16.6% 3.8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.phone_color_black, .phone_color_white{
+  background-position: center;
+  background-size: cover;
+}
 .phone_color_black{
-  background-color: #1a1a1a;
+  background-image: url(../../../assets/images/phone-black.svg);
 }
 .phone_color_white{
-  background-color: #f7f7f7;
+  background-image: url(../../../assets/images/phone-white.svg);
 }
 
 .phone_size_s{
@@ -19,6 +26,6 @@
   height: 466px;
 }
 .phone_size_l{
-  width: 270px;
+  width: 300px;
   height: 523px;
 }

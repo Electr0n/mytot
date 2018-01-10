@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="248px" height="474px" viewBox="0 0 248 474" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ip_3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.7%" y="-1.0%" width="105.4%" height="102.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M237.798165,40.2104019 L237.798165,68.8534279 L238.898361,68.8534279 C239.506779,68.8534279 240,68.3602072 240,67.7517886 L240,41.3120412 C240,40.7036226 239.506779,40.2104019 238.898361,40.2104019 L237.798165,40.2104019 Z" id="path-2"></path>
+        <filter x="-70.4%" y="-5.4%" width="240.9%" height="110.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M0,79.8699609 L0,126.49721 C7.45097903e-17,127.105629 0.493220735,127.59885 1.10163934,127.59885 L2.20183486,127.59885 L2.20183486,78.7683215 L1.10163934,78.7683215 C0.493220735,78.7683215 -7.45097903e-17,79.2615422 0,79.8699609 Z" id="path-4"></path>
+        <filter x="-70.4%" y="-3.2%" width="240.9%" height="106.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="22.2727924%" y1="-14.1091349%" x2="90.6586119%" y2="98.153535%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0.765194164" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="1.65137615" y="0" width="236.697248" height="466" rx="22.0327869"></rect>
+        <filter x="-0.7%" y="-0.3%" width="101.3%" height="100.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#ADADAD" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="22.462972%" y1="8.24991862%" x2="77.5756836%" y2="92.3299154%" id="linearGradient-10">
+            <stop stop-color="#58B5FF" offset="0%"></stop>
+            <stop stop-color="#215680" stop-opacity="0.478656314" offset="37.1887628%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.133042279" offset="50.6037215%"></stop>
+            <stop stop-color="#04226B" stop-opacity="0.797229259" offset="76.3302442%"></stop>
+            <stop stop-color="#1163C5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M112.293578,22.5839243 C113.205608,22.5839243 113.944954,21.8440829 113.944954,20.9314421 C113.944954,20.0188013 113.205608,19.2789598 112.293578,19.2789598 C111.381548,19.2789598 110.642202,20.0188013 110.642202,20.9314421 C110.642202,21.8440829 111.381548,22.5839243 112.293578,22.5839243 Z" id="path-11"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#ADADAD" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-13" x="120.550459" y="19.8297872" width="18.7155963" height="2.20330969" rx="1.10165485"></rect>
+        <pattern id="pattern-14" width="7.5" height="7.5" x="113.050459" y="12.3297872" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-15" transform="scale(0.25,0.25)"></use>
+        </pattern>
+        <image id="image-15" width="30" height="30" xlink:href="data:image/png;base64,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"></image>
+        <filter x="-2.7%" y="-22.7%" width="105.3%" height="145.4%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.12 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="99.2546102%" id="linearGradient-17">
+            <stop stop-color="#FFFFFF" stop-opacity="0.06" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.02" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-18" x="9.90825688" y="40.2104019" width="220.183486" height="385.579196"></rect>
+    </defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-192.000000, -2743.000000)">
+        <g id="Group-4" transform="translate(196.000000, 2745.000000)">
+            <g id="ip_3" filter="url(#filter-1)">
+                <g id="Stuff">
+                    <g id="Power-Switch">
+                        <use fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <path stroke-opacity="0.1" stroke="#000000" stroke-width="0.550819672" d="M237.522755,39.9349921 L238.898361,39.9349921 C239.658884,39.9349921 240.27541,40.551518 240.27541,41.3120412 L240.27541,67.7517886 C240.27541,68.5123118 239.658884,69.1288377 238.898361,69.1288377 L237.522755,69.1288377 L237.522755,39.9349921 Z"></path>
+                    </g>
+                    <g id="Rocker-Switch">
+                        <use fill="#F8F8F8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <path stroke-opacity="0.1" stroke="#000000" stroke-width="0.550819672" d="M-0.275409836,79.8699609 C-0.275409836,79.1094376 0.341116082,78.4929117 1.10163934,78.4929117 L2.4772447,78.4929117 L2.4772447,127.87426 L1.10163934,127.87426 C0.341116082,127.87426 -0.275409836,127.257734 -0.275409836,126.49721 L-0.275409836,79.8699609 Z"></path>
+                    </g>
+                    <g id="Nixus-Phone-Body">
+                        <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <use fill="url(#linearGradient-6)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <rect stroke-opacity="0.101534194" stroke="#000000" stroke-width="0.550819672" x="1.37596631" y="-0.275409836" width="237.248067" height="466.55082" rx="22.0327869"></rect>
+                    </g>
+                    <path d="M112.293578,24.2364066 C114.117638,24.2364066 115.59633,22.7567237 115.59633,20.9314421 C115.59633,19.1061605 114.117638,17.6264775 112.293578,17.6264775 C110.469518,17.6264775 108.990826,19.1061605 108.990826,20.9314421 C108.990826,22.7567237 110.469518,24.2364066 112.293578,24.2364066 Z" id="Camera-Inlay" fill="url(#linearGradient-9)"></path>
+                    <path d="M112.293578,23.1347518 C113.509618,23.1347518 114.495413,22.1482965 114.495413,20.9314421 C114.495413,19.7145877 113.509618,18.7281324 112.293578,18.7281324 C111.077538,18.7281324 110.091743,19.7145877 110.091743,20.9314421 C110.091743,22.1482965 111.077538,23.1347518 112.293578,23.1347518 Z" id="Camera-Boarder" fill="#0E0E0E"></path>
+                    <g id="Camera-Lens">
+                        <use fill="url(#linearGradient-10)" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        <path stroke-opacity="0.0301011029" stroke="#FFFFFF" stroke-width="0.550819672" d="M112.293578,22.3085145 C113.053462,22.3085145 113.669544,21.6920195 113.669544,20.9314421 C113.669544,20.1708647 113.053462,19.5543696 112.293578,19.5543696 C111.533694,19.5543696 110.917612,20.1708647 110.917612,20.9314421 C110.917612,21.6920195 111.533694,22.3085145 112.293578,22.3085145 Z"></path>
+                    </g>
+                    <rect id="Specker-Inlay" fill="url(#linearGradient-12)" x="118.899083" y="18.177305" width="22.0183486" height="5.50827423" rx="2.75413712"></rect>
+                    <rect id="Speaker-Boarder" fill="#383838" x="120" y="19.2789598" width="19.8165138" height="3.30496454" rx="1.65248227"></rect>
+                    <g id="Speaker-Grill">
+                        <use fill="#4D4D4D" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        <use fill="url(#pattern-14)" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-13"></use>
+                    </g>
+                    <ellipse id="Sensor" fill-opacity="0.399988511" fill="#000000" cx="103.486239" cy="20.3806147" rx="1" ry="1"></ellipse>
+                    <rect id="Screen-Boarder-Boarder" fill="url(#linearGradient-17)" x="8.25688073" y="38.5579196" width="223.486239" height="388.884161" rx="2.20327869"></rect>
+                    <rect id="Screen-Boarder" fill="#000000" x="8.80733945" y="39.108747" width="222.385321" height="387.782506" rx="1.65245902"></rect>
+                </g>
+                <g id="-SCREEN-HERE-">
+                    <use fill="#0C4151" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    <rect stroke-opacity="0.2421875" stroke="#FFFFFF" stroke-width="0.550819672" x="10.1836667" y="40.4858117" width="219.632667" height="385.028377"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

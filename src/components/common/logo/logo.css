@@ -1,0 +1,11 @@
+.logo svg{
+  color: currentColor;
+  fill: currentColor;
+  vertical-align: middle;
+}
+.logo_color_green{
+  color: #00BCA2;
+}
+.logo_color_white{
+  color: #ffffff;
+}
