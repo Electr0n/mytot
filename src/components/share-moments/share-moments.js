@@ -18,21 +18,21 @@ export default class ShareMoments extends Component{
             <div className='share-moments__phone'>
               <Phone size='s' color='white'>
                 <div className='share-moments__phone__content_1'>
-                  <img src={screen} />
+                  <img alt='Поделись лучшими моментами с вашими близкими - легко и удобно.' src={screen} />
                 </div>
               </Phone>
             </div>
             <div className='share-moments__phone'>
               <Phone size='s' color='white'>
                 <div className='share-moments__phone__content_2'>
-                  <img src={screen} />
+                  <img alt='Поделись лучшими моментами с вашими близкими - легко и удобно.' src={screen} />
                 </div>
               </Phone>
             </div>
             <div className='share-moments__phone'>
               <Phone size='s' color='white'>
                 <div className='share-moments__phone__content_3'>
-                  <img src={screen} />
+                  <img alt='Поделись лучшими моментами с вашими близкими - легко и удобно.' src={screen} />
                 </div>
               </Phone>
             </div>

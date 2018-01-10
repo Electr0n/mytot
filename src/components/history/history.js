@@ -17,7 +17,7 @@ export default class History extends Component{
             <div className='history__phone'>
               <Phone size='m' color='white'>
                 <div className='history__phone__content'>
-                  <img src={screen} />
+                  <img alt='Истории, которые не забываются и не выцветают!' src={screen} />
                 </div>
               </Phone>
             </div>

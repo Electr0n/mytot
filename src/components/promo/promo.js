@@ -22,7 +22,7 @@ export default class Promo extends Component{
           <div className='promo__phone'>
             <Phone size='l' color='black'>
               <div className='promo__phone__content'>
-                <img src={ screen }/>
+                <img alt='Не забывай бесценное!' src={ screen }/>
               </div>
             </Phone>
           </div>

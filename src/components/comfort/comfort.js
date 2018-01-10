@@ -11,7 +11,7 @@ export default class Comfort extends Component {
           <div className='comfort__phone'>
             <Phone size='m' color='black'>
               <div className='comfort__phone__content'>
-                <img src={screen} />
+                <img alt='Просматривай контент удобно!' src={screen} />
               </div>
             </Phone>
           </div>
@@ -23,7 +23,7 @@ export default class Comfort extends Component {
           <div className='comfort__phone'>
             <Phone size='m' color='black'>
               <div className='comfort__phone__content'>
-                <img src={screen} />
+                <img alt='Просматривай контент удобно!' src={screen} />
               </div>
             </Phone>
           </div>
