@@ -1,5 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: latoRegular;
+}
+@font-face{
+  font-family: latoMedium;
+  src: url(./assets/fonts/lato-medium.ttf);
+}
+@font-face{
+  font-family: latoRegular;
+  src: url(./assets/fonts/lato-regular.ttf);
+}
+@font-face{
+  font-family: mullerRegular;
+  src: url(./assets/fonts/muller-regular.otf);
+}
+@font-face{
+  font-family: noteworthyBold;
+  src: url(./assets/fonts/noteworthy-bold.ttf);
 }
