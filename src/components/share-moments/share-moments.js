@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Phone from '../common/phone/phone';
+import Arrow from '../common/arrow/arrow';
 import './share-moments.css';
 import screen from '../../assets/images/phone_screen-default.png';
 
@@ -22,6 +23,7 @@ export default class ShareMoments extends Component{
                 </div>
               </Phone>
             </div>
+            <Arrow flipped={true} />
             <div className='share-moments__phone'>
               <Phone size='s' color='white'>
                 <div className='share-moments__phone__content_2'>
@@ -29,6 +31,7 @@ export default class ShareMoments extends Component{
                 </div>
               </Phone>
             </div>
+            <Arrow />
             <div className='share-moments__phone'>
               <Phone size='s' color='white'>
                 <div className='share-moments__phone__content_3'>

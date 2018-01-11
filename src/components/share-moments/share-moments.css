@@ -54,6 +54,7 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
+  align-items: flex-end;
 }
 .share-moments__phone__content_1,
 .share-moments__phone__content_2,
