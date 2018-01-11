@@ -23,6 +23,7 @@
   transform: rotate(-5deg);
   bottom: 190px;
   right: 10px;
+  font-family: noteworthyBold;
 }
 .arrow__text_flipped{
   bottom: -20px;

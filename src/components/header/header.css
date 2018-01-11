@@ -9,6 +9,7 @@
 .header__menu{
   display: flex;
   font-size: 18px;
+  font-family: latoMedium;
 }
 .header__menu-btn{
   margin: 5px 30px;

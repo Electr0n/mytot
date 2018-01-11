@@ -39,6 +39,7 @@
   font-size: 38px;
   text-align: center;
   margin-bottom: 50px;
+  font-family: mullerRegular;
 }
 .cloud__content__description{
   display: flex;
