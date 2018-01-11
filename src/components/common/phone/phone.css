@@ -8,7 +8,8 @@
 
 .phone_color_black, .phone_color_white{
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .phone_color_black{
   background-image: url(../../../assets/images/phone-black.svg);
