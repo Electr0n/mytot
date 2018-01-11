@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="219px" height="128px" viewBox="0 0 219 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>line_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-767.000000, -1429.000000)">
+        <g id="Group-19" transform="translate(226.000000, 1163.000000)">
+            <g id="Group-18" transform="translate(145.000000, 241.000000)">
+                <g id="Group-17">
+                    <g id="line_2" transform="translate(390.000000, 0.000000)">
+                        <ellipse id="Oval-6" stroke="#38E0F6" stroke-dasharray="4,4" transform="translate(32.500000, 129.500000) rotate(-20.000000) translate(-32.500000, -129.500000) " cx="32.5" cy="129.5" rx="25.5" ry="22.5"></ellipse>
+                        <path d="M42.4449169,120.714511 C53.0521784,89.9192357 75.1221259,64.427591 108.654759,44.2395771 C142.187393,24.0515631 175.206771,13.9575562 207.712895,13.9575562" id="Line-3" stroke="#38E0F6" stroke-linecap="square" stroke-dasharray="4,4" transform="translate(125.078906, 67.336034) rotate(10.000000) translate(-125.078906, -67.336034) "></path>
+                        <polygon id="Triangle" fill="#38E0F6" transform="translate(220.500000, 30.500000) rotate(105.000000) translate(-220.500000, -30.500000) " points="220.5 26 225 35 216 35"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
