@@ -4,29 +4,30 @@
   background-image: url(../../../assets/images/arrow.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 0 50%;
+  background-position: 0 27%;
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg);
 }
 .arrow_flipped{
   -webkit-transform: rotate(-7deg) scaleY(-1);
   transform: rotate(-7deg) scaleY(-1);
-  background-position: 0 0;
 }
 .arrow__container{
   position: relative;
   width: 250px;
   height: 250px;
-  margin-left: -7%;
+  margin-left: -6.8%;
 }
 .arrow__text{
   position: absolute;
   -webkit-transform: rotate(-5deg);
   transform: rotate(-5deg);
-  bottom: 190px;
-  right: 10px;
+  bottom: 210px;
+  right: 15px;
   font-family: noteworthyBold;
 }
 .arrow__text_flipped{
-  bottom: -20px;
+  bottom: 10px;
   -webkit-transform: rotate(5deg);
   transform: rotate(5deg);
 }

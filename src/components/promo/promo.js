@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Phone from '../common/phone/phone';
 import './promo.css';
-import screen from '../../assets/images/phone_screen-default.png';
 import video from '../../assets/aaa_bbb.mp4';
 
 export default class Promo extends Component{
