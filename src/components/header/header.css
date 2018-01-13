@@ -39,3 +39,36 @@
   transform: translateX(-50%);
   width: 100%;
 }
+.header__icon-download, .header__icon-contacts{
+  display: none;
+}
+
+/* MEDIA */
+@media screen and (max-width: 720px) and (min-width: 576px){
+  .header{
+    width: 88%;
+  }
+}
+@media screen and (max-width: 576px){
+  .header{
+    width: 90%;
+  }
+  .header__menu-btn{
+    display: none;
+  }
+  .header__icon-download, .header__icon-contacts{
+    display: block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 22px;
+  }
+  .header__icon-download{
+    background-image: url('../../assets/images/download.svg');
+  }
+  .header__icon-contacts{
+    background-image: url('../../assets/images/contacts.svg');
+  }
+}
