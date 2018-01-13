@@ -5,6 +5,7 @@
   align-items: flex-start;
   position: relative;
   width: 75%;
+  max-width: 1100px;
   height: 750px;
 }
 .comfort__label{
@@ -26,14 +27,14 @@
   margin-bottom: 80px;
 }
 .comfort__phone__content{
-  width: 190px;
-  height: 338px;
-  margin-left: 2px;
+  display: flex;
+  justify-content: center;
+  margin-left: 3px;
   margin-bottom: 15px;
 }
 .comfort__phone__content img{
-  width: 100%;
-  height: 100%;
+  width: 224px;
+  height: 400px;
 }
 .comfort__text{
   width: 430px;
@@ -47,6 +48,7 @@
   width: 300px;
   height: 300px;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: url('../../assets/images/pandas1-07.svg');
 }
 .comfort__wrapper{

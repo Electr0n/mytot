@@ -38,6 +38,7 @@
   flex-direction: column;
   align-items: center;
   width: 75%;
+  max-width: 1000px;
   height: 100%;
 }
 .share-moments__content__label{
