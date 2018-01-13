@@ -50,7 +50,7 @@
 }
 .promo__phone{
   position: absolute;
-  left: 37%;
+  right: 0;
   top: 35px;
 }
 .promo__phone__content{
@@ -62,4 +62,75 @@
 .promo__phone__content img{
   width: 100%;
   height: 100%;
+}
+
+/* MEDIA */
+@media screen and (max-width: 1300px){
+  .promo{
+    width: 85%;
+  }
+  .promo__panda-1{
+    left: -55%;
+  }
+  .promo__panda-2{
+    left: -22%;
+  }
+}
+@media screen and (max-width: 1024px){
+  .promo{
+    width: 90%;
+  }
+  .promo__panda-1{
+    left: -70%;
+  }
+  .promo__panda-2{
+    left: -37%;
+  }
+}
+@media screen and (max-width: 950px){
+  .promo__images{
+    width: 65%;
+  }
+  .promo__content{
+    width: 35%;
+  }
+  .promo__content__description{
+    width: 380px;
+  }
+  .promo__panda-1{
+    left: -60%;
+  }
+  .promo__panda-2{
+    left: -27%;
+  }
+}
+@media screen and (max-width: 720px){
+  .promo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .promo__content{
+    width: 100%;
+  }
+  .promo__images{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .promo__phone{
+    position: static;
+  }
+  .promo__content__description{
+    width: 100%;
+  }
+  .promo__panda-1, .promo__panda-2, .promo__content__download_link{
+    display: none;
+  }
+}
+@media screen and (max-width: 567px){
+  .promo__content__label, .promo__content__description{
+    text-align: center;
+  }
 }
