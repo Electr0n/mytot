@@ -125,12 +125,10 @@
   .promo__content__description{
     width: 100%;
   }
-  .promo__panda-1, .promo__panda-2, .promo__content__download_link{
-    display: none;
-  }
-}
-@media screen and (max-width: 567px){
   .promo__content__label, .promo__content__description{
     text-align: center;
+  }
+  .promo__panda-1, .promo__panda-2, .promo__content__download_link{
+    display: none;
   }
 }
