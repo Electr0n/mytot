@@ -73,3 +73,100 @@
   width: 100%;
   height: 100%;
 }
+
+/* MEDIA */
+@media screen and (max-width: 1300px) and (min-width: 1151px){
+  .share-moments__content{
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1150px) and (min-width: 1001px){
+  .share-moments__content{
+    width: 97%;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 901px){
+  .share-moments__content{
+    width: 97%;
+  }
+}
+@media screen and (max-width: 900px){
+  .share-moments__content{
+    width: 100%;
+  }
+  .arrow__container{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 63%;
+    bottom: 18%;
+  }
+  .arrow__container_flipped{
+    left: 30%;
+  }
+}
+@media screen and (max-width: 780px) and (min-width: 691px){
+  .share-moments__content{
+    width: 100%;
+  }
+  .arrow__container{
+    position: absolute;
+    left: 64%;
+  }
+  .arrow__container_flipped{
+    left: 31%;
+  }
+}
+@media screen and (max-width: 690px){
+  .share-moments{
+    height: 100%;
+  }
+  .share-moments__background{
+    height: 1520px;
+  }
+  .share-moments__content{
+    width: 100%;
+  }
+  .share-moments__content__images{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .share-moments__content__label{
+    margin-top: 220px;
+    width: 90%;
+    text-align: center;
+  }
+  .share-moments__content__description{
+    width: 90%;
+    max-width: 570px;
+    text-align: center;
+  }
+  .share-moments__phone{
+    margin-bottom: 40px;
+  }
+  .arrow__container{
+    width: 200px;
+    height: 200px;
+    left: 52%;
+    top: 1160px;
+  }
+  .arrow__container_flipped{
+    top: 680px;
+  }
+}
+@media screen and (max-width: 520px){
+  .arrow__container{
+    width: 150px;
+    height: 150px;
+    left: 56%;
+  }
+}
+@media screen and (max-width: 400px){
+  .arrow__container{
+    top: 1200px;
+  }
+  .arrow__container_flipped{
+    top: 720px;
+  }
+}
