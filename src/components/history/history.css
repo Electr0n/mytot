@@ -50,6 +50,7 @@
   color: #ffffff;
   margin-bottom: 50px;
   font-family: mullerRegular;
+  z-index: 1;
 }
 .history__container__description{
   display: flex;
@@ -126,4 +127,145 @@
   position: absolute;
   left: 30%;
   bottom: 5%;
+}
+
+/* MEDIA */
+@media screen and (max-width: 1350px) and (min-width: 901px){
+  .history__container{
+    width: 90%;
+  }
+  .talk-bubble_1{
+    top: -30%;
+  }
+  .talk-bubble_2{
+    left: 50%;
+    top: -20%;
+  }
+  .talk-bubble_3{
+    left: 26%;
+  }
+  .history__container__label{
+    text-align: center;
+  }
+  .history__description__wrapper{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 900px){
+  .history__container{
+    width: 100%;
+  }
+  .talk-bubble_1{
+    top: -30%;
+  }
+  .talk-bubble_2{
+    left: 50%;
+    top: -10%;
+  }
+  .talk-bubble_3{
+    left: 20%;
+  }
+  .history__container__label{
+    text-align: center;
+    margin-top: 100px;
+  }
+  .history__description__wrapper{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 780px) and (min-width: 700px){
+  .history__description__text{
+    font-size: 28px;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .talk-bubble_1{
+    top: -40%;
+  }
+  .talk-bubble_2{
+    left: 45%;
+    top: -25%;
+  }
+  .talk-bubble_3{
+    left: 20%;
+  }
+}
+@media screen and (max-width: 700px) and (min-width: 580px){
+  .history{
+    height: 1300px;
+  }
+  .history__phone{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+  }
+  .history__phone__content img{
+    width: 218px;
+  }
+  .history__container__description{
+    flex-direction: column;
+  }
+  .history__description__wrapper{
+    width: 100%;
+  }
+  .history__description__text{
+    text-align: center;
+  }
+  .history__photo-frame{
+    left: -100px;
+    top: 5px;
+  }
+  .history__description__bubbles{
+    height: 0px;
+  }
+  .history__description__bubbles__item{
+    height: 100px;
+    width: 140px;
+  }
+  .history__container__label{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 34px;
+  }
+  .talk-bubble_1{
+    top: -660px;
+    left: 13%;
+  }
+  .talk-bubble_2{
+    top: -690px;
+    left: 60%;
+  }
+  .talk-bubble_3{
+    top: -600px;
+    left: 39%;
+  }
+}
+@media screen and (max-width: 579px){
+  .history__phone{
+    display: flex;
+    justify-content: center;
+  }
+  .history__phone__content img{
+    width: 218px;
+  }
+  .history{
+    height: 1100px;
+  }
+  .history__container__label{
+    margin-bottom: 20px;
+  }
+  .history__container__description{
+    flex-direction: column;
+  }
+  .history__description__bubbles{
+    display: none;
+  }
+  .history__description__wrapper{
+    width: 100%;
+  }
+  .history__description__text{
+    margin-top: 0px;
+    text-align: center;
+  }
 }
