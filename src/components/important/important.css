@@ -34,5 +34,50 @@
   width: 500px;
   height: 500px;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: url('../../assets/images/pandas1-05.svg');
+}
+
+/* MEDIA */
+@media screen and (max-width: 1000px) and (min-width: 920px){
+  .important{
+    width: 100%;
+  }
+  .important__content{
+    margin-left: 20px;
+  }
+  .important__wrapper{
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 919px){
+  .important{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .important__content{
+    padding-top: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .important__image{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .important__wrapper{
+    margin-top: 0px;
+  }
+  .important__content__header, .important__content__text{
+    width: 500px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px){
+  .important__content__header, .important__content__text{
+    width: auto;
+  }
 }
