@@ -11,7 +11,10 @@ export default class Footer extends Component{
           <Logo color='white'/>
         </div>
         <div className='footer__menu'>
-          <div className='footer__icon-download'></div>
+          <a href='https://play.google.com/store/apps/details?id=com.inflow.mytot'>
+            <div className='footer__icon-download'>
+            </div>
+          </a>
           <div className='footer__icon-contacts'></div>
           <div className='footer__menu__item'><a href='https://play.google.com/store/apps/details?id=com.inflow.mytot'>Скачать My Tot</a></div>
           <div className='footer__menu__item'><a href=''>Контакты</a></div>

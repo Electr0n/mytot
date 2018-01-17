@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Phone from '../common/phone/phone';
 import './promo.css';
-import video from '../../assets/aaa_bbb.mp4';
 
 export default class Promo extends Component{
   render(){
@@ -22,9 +21,13 @@ export default class Promo extends Component{
           <div className='promo__phone'>
             <Phone size='l' color='black'>
               <div className='promo__phone__content'>
-                <video loop autoPlay id="video1" width="240">
-                  <source src={video} type="video/mp4" />
-                </video>                
+                <iframe
+                  title='mytot'
+                  width="240"
+                  height="425"
+                  src="https://www.youtube.com/embed/ZYAprQQfgZM?version=3&autoplay=1&loop=1&playlist=ZYAprQQfgZM&showinfo=0&controls=0&modestbranding=0&enablejsapi=1&origin=http://mytotlandingpage.herokuapp.com/"
+                  frameBorder='0'>
+                </iframe>
               </div>
             </Phone>
           </div>
