@@ -66,3 +66,54 @@
   background-repeat: no-repeat;
   background-image: url('../../assets/images/pandas1-09.svg');
 }
+
+
+/* MEDIA */
+@media screen and (max-width: 1150px) and (min-width: 920px){
+  .access__content{
+    width: auto;
+    margin-left: 20px;
+  }
+  .access__image{
+    position: absolute;
+    right: -250px;
+  }
+}
+@media screen and (max-width: 919px){
+  .access{
+    height: 1300px;
+  }
+  .access__content{
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  .access__background{
+    top: 300px;
+    height: 1200px;
+  }
+  .access__background-line{
+    z-index: -2;
+  }
+}
+@media screen and (max-width: 720px){
+  .access__header, .access__text{
+    width: 90%;
+  }
+  .access__content a .promo__content__download_link{
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 500px){
+  .access__header{
+    font-size: 34px;
+  }
+  .access__image{
+    width: 550px;
+    height: 550px;
+  }
+  .access__content a .promo__content__download_link{
+    display: block;
+    margin-bottom: 0px;
+  }
+}
