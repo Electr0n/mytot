@@ -15,7 +15,7 @@
   -moz-transform: skew(0deg, 4deg);
   -o-transform: skew(0deg, 4deg);
   position: absolute;
-  top: -80px;
+  top: -100px;
 }
 .footer__menu{
   width: 75%;
