@@ -8,27 +8,29 @@ export default class Comfort extends Component {
     return(
       <div className='comfort__wrapper'>
         <div className='comfort'>
-          <div className='comfort__phone'>
-            <Phone size='m' color='black'>
-              <div className='comfort__phone__content'>
-                <img alt='Просматривай контент удобно!' src={screen} />
-              </div>
-            </Phone>
+          <div className='comfort__label'>Просматривай контент удобно!</div>
+          <div className='comfort__container'>
+            <div className='comfort__phone'>
+              <Phone size='m' color='black'>
+                <div className='comfort__phone__content'>
+                  <img alt='Просматривай контент удобно!' src={screen} />
+                </div>
+              </Phone>
+            </div>
+            <div className='comfort__content'>
+              <div className='comfort__text'>Навигация и поиск по возрасту ребенка. Группировка по дням или событиям.</div>
+              <div className='comfort__panda'></div>
+            </div>
+            <div className='comfort__phone'>
+              <Phone size='m' color='black'>
+                <div className='comfort__phone__content'>
+                  <img alt='Просматривай контент удобно!' src={screen} />
+                </div>
+              </Phone>
+            </div>
           </div>
-          <div className='comfort__content'>
-            <div className='comfort__label'>Просматривай контент удобно!</div>
-            <div className='comfort__text'>Навигация и поиск по возрасту ребенка. Группировка по дням или событиям.</div>
-            <div className='comfort__panda'></div>
-          </div>
-          <div className='comfort__phone'>
-            <Phone size='m' color='black'>
-              <div className='comfort__phone__content'>
-                <img alt='Просматривай контент удобно!' src={screen} />
-              </div>
-            </Phone>
-          </div>
+          <div className='comfort__line'></div>
         </div>
-        <div className='comfort__line'></div>
       </div>
     );
   };
