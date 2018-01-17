@@ -1,18 +1,24 @@
 .comfort{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.comfort__container{
+  display: flex;
   align-self: center;
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
   width: 75%;
   max-width: 1100px;
-  height: 750px;
+  z-index: 3;
 }
 .comfort__label{
   width: 520px;
   text-align: center;
   font-size: 38px;
-  margin-top: 40px;
+  margin-top: 100px;
   font-family: mullerRegular;
 }
 .comfort__content{
@@ -20,6 +26,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-self: flex-end;
+  margin-bottom: 80px;
 }
 .comfort__phone{
   display: flex;
@@ -74,4 +82,44 @@
   background: -moz-radial-gradient(top right , #00d4d4, #b4f5be, #bff6cf, #ffffff);
   background: radial-gradient(top right , #00d4d4, #b4f5be, #bff6cf, #ffffff);
   opacity: 0.15;
+  z-index: 2;
+}
+
+/* MEDIA */
+@media screen and (max-width: 1300px) and (min-width: 1000px){
+  .comfort__container{
+    width: 100%;
+  }
+  .comfort__label, .comfort__text{
+    width: 400px;
+  }
+}
+@media screen and (max-width: 999px){
+  .comfort__wrapper{
+    height: auto;
+  }
+  .comfort__label{
+    width: auto;
+  }
+  .comfort__container{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .comfort__phone{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .comfort__content{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .comfort__text, .comfort__content{
+    margin: 0px;
+  }
 }
