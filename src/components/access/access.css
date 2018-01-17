@@ -13,7 +13,7 @@
   z-index: -1;
 }
 .access__background{
-  width: 2000px;
+  width: 3000px;
   height: 800px;
   background: #06bad6;
   background: -webkit-radial-gradient(left top, #d4edf3, #d4edf3, #d4edf3, #fbfcfd);
